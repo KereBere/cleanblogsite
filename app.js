@@ -9,7 +9,7 @@ const app = express();
 
 mongoose
   .connect(
-    'mongodb+srv://ali:2153401Ali.@cluster0.iogjh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    'mongodb+srv://ali:<password>@cluster0.iogjh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
